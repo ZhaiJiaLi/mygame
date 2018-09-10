@@ -1,0 +1,168 @@
+@import url(base.css);
+.Box{
+    position: absolute;
+    background:#f7f7f7;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background: url("../img/qiang.png");
+    background-size: contain;
+}
+.screen{
+    width: 13.34rem;
+    height: 8.9rem;
+    background: url("../img/scen.png") no-repeat 0 0 ;
+    background-size:contain ;
+    position: relative;
+}
+.screen div{
+    width: 0.5rem;
+    height: 0.77rem;
+    background-size: contain;
+    position: absolute;z-index: 9;
+    /*top:;*/
+    /*left:;*/
+}
+.keyboard{
+    width: 100%;
+    height: 4.26rem;
+    background: url("../img/Key.png");
+    overflow: hidden;
+}
+.keyboard .con{
+    width: 7.02rem;
+    height: 4rem;
+    background: rgba(44,112,221,0.7);
+    margin: 0.2rem 0.25rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard .con div{
+    width: 0.5rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.34rem;
+    background: url("../img/Letter.png");
+    background-size: contain;
+    margin: 0 0.1rem;
+
+}
+.keyboard .con div:nth-child(11){
+    margin-left: 0.5rem;
+}
+.showbox{
+    width:1.24rem;
+    height: auto;
+    position: absolute;
+    top:0;
+    right:0.24rem;
+
+}
+.showbox li:first-child{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-top:0.5rem ;
+    margin-left: 0.6rem;
+}
+.showbox .play{
+    background: url("../img/Apause.png");
+    background-size: contain;
+}
+.showbox .pause{
+    background: url("../img/Aplay.png");
+    background-size: contain;
+}
+.showbox li:nth-child(2){
+    width: 1.24rem;
+    height: 1.24rem;
+    margin-top:2rem ;
+    background: url("../img/Health.png");
+    background-size: contain;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.showbox li:nth-child(3){
+    width: 1.24rem;
+    height: 1.24rem;
+    margin-top: 0.3rem;
+    background: url("../img/Point.png");
+    background-size: contain;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.showbox li:nth-child(4){
+    width: 1.24rem;
+    height: 1.24rem;
+    margin-top: 0.3rem;
+    /*background: url("../img/Pause.png");*/
+    background-size: contain;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.showbox .play1{
+      background: url("../img/Play.png");
+    background-size: contain;
+  }
+.showbox .pause1{
+    background: url("../img/Pause.png");
+    background-size: contain;
+}
+.alertbox{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+    z-index: 99;
+}
+.alertbox .massage{
+    width: 4.3rem;
+    height: 4.49rem;
+    background: url("../img/gameover.png");
+    background-size: contain;
+    margin: 3.61rem auto 0;
+    position: relative;
+
+}
+.alertbox .massage #point{
+    width: 0.8rem;
+    height: 0.5rem;
+    position: absolute;
+    top:2.62rem;
+    left:2.3rem;
+    font-size: 0.5rem;
+    color: red;
+    font-weight: bold;
+}
+.alertbox .massage .btn{
+    width: 2.63rem;
+    height: 0.6rem;
+    background: url("../img/btn.png");
+    background-size: contain;
+    position: absolute;
+    top:3.4rem;
+    left:0.8rem;
+}
+.clound{
+    width: 4.95rem;
+    height: 0.56rem;
+    background: url("../img/clound_06.png");
+    background-size: contain;
+    position: fixed;
+    left:1.5rem;
+    top:3.16rem;
+    margin: 0 auto ;
+    display: none;
+
+}
